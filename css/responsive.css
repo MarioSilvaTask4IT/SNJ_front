@@ -1,0 +1,738 @@
+
+section.why article ul li span {
+	transition:ease 0.6s;
+	position: absolute;
+	width:180px;
+	height:180px;
+	border:solid 5px #009EFF;
+}
+section.why article ul li span:hover {
+	-ms-transform: scale(0.9, 0.9); /* IE 9 */
+    -webkit-transform: scale(0.9, 0.9); /* Chrome, Safari, Opera */
+	transform:scale(0.9, 0.9);
+	transition:ease 0.6s;
+	border:solid 5px #fff;
+	background-color:#009EFF;
+	color:#fff;
+}
+section.why article ul li p {
+  color: #fff;
+  display: block;
+  margin-top: 200px;
+}
+
+
+/* /global */
+
+@media (min-width:1025px){
+
+.mob-header {
+  display: none !important;
+}
+.mainmenu {
+  display: inline !important;
+}
+header .wrapper ul {
+  display: block !important;
+}
+.userbar .wrapper > ul {
+  display: block !important;
+}
+
+
+
+
+
+}
+
+@media (max-width:845px){
+  .myhub .taskBlock .applytotask .user p {
+    width: 100%;
+  }
+  .myhub .taskBlock .applytotask .user .userRanking {
+    margin: 0;margin-right: 30px;
+  }
+  .myhub .taskBlock .applytotask .user a.btn {
+    margin-top: 20px;
+  }
+
+
+ }
+
+@media (max-width:561px){
+
+  .contact_form .btn {
+    margin-right: 10px !important;
+  }
+  .review a.btn {
+    right: 25px;
+  }
+  .myhub .taskBlock .applytotask .user .userRanking {
+    width: 100%;
+  }
+  .profileBlock.grey {
+    height: 240px !important;
+  }
+  .profileBlock .endProjects {
+    margin-top: 22px;
+  }
+  .blockRegister .select select {
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+ }
+
+ @media (max-width:450px){
+.review {
+  padding-bottom: 70px;
+}
+.review a.btn {
+  top: 105px;
+}
+.myhub .taskBlock .applytotask .user .userLikes, .myhub .taskBlock .applytotask .user .userDislikes {
+  padding-top: 30px;
+}
+
+ }
+
+ /* /min-width:1025px */
+@media (max-width:957px){
+  .hub .row .right p {
+    right: -168%;
+    top: -19px;
+    position: absolute;
+  }
+  .hub .row .left {
+    float: left;
+    width: 30%;
+}
+.hub .row .center {
+  width: 50%;
+}
+section .wrapper {
+  width: 100%;
+}
+.hub .row .right {
+  width: 20%;
+}
+.hub .row {
+  background-position: right 20px top 16px;
+}
+.messages h2 {
+  text-align: center;width: 100%;padding-left: 0;margin-left: 0;
+}
+
+ }
+@media (max-width:1024px){
+  .ccpp {
+    float: initial !important;
+        margin-left: 196px !important;
+  }
+  .wrapper .profile {
+    padding: 0 8%;
+  }
+  .profile .profileBlock {
+    width: 100%;margin: 0;
+  }
+  .cpp {
+    padding: 0 10%;
+  }
+  .profile .profileBlock {
+    margin-bottom: 10px;
+  }
+  .profileBlock.grey {
+    height: 192px;
+  }
+.hub a.btn {
+  float: right;
+  margin-right: 20px;
+}
+.review {
+  height: inherit;
+}
+
+
+  .login .center input {
+    width: 270px;
+  }
+  .login .center {
+    margin-top: 0;
+  }
+  .login .center .close {
+    right: -37px;
+    top: -30px;
+  }
+
+* {box-sizing:border-box;max-width:100% !important;}
+table {table-layout:fixed; width:100%;}
+img { max-width:100% !important; height:auto;}
+body {margin: 0px;padding: 0px;}
+iframe { max-width:100% !important;}
+object { max-width:100% !important;}
+
+header {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  top: auto;
+}
+.mainmenu {
+  display: inline;
+}
+footer {
+  display: block;
+  float: left;
+  height: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 100%;
+}
+section.hero aside {
+  display: none;
+}
+
+section.why article ul li {
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.mob-header {
+  display: block;
+  float: right;
+  height: auto;
+  text-align: right;
+}
+.mainmenu {display:none;}
+.mainmenu.open {
+  background-color: rgba(0,0,0,1);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: ease 3s;
+}
+header .wrapper > ul {
+  display: none;
+}
+section.hero .downBar .wrapper {
+  display: none;
+}
+.open > ul {
+  display: block;
+  clear: both;
+  float: none !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 300px;
+}
+header .open li {
+  display: block;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  text-align: center;
+  width: 100%;
+}
+.close {
+  color: #009EFF;
+  cursor: pointer;
+  float: right;
+  font-size: 28px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.mob_button {
+  color: #009eff;
+  cursor: pointer;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+header .wrapper ul li a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+header .wrapper ul li a.btn {
+  margin-bottom: 15px;
+  min-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* dashboard */
+
+.white > section {
+  float: left;
+  height: auto;
+  width: 100%;
+}
+.white > footer {
+  float: left;
+  height: auto;
+  width: 100%;
+}
+.mobbtn {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 28px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+.white .userbar .wrapper ul {
+  background-color: #0098ff;
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 60px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  max-height:100vh;
+}
+.userbar .wrapper::before {
+  left: 15px;
+  top: 10px;
+}
+.closebtn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 28px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.userbar .wrapper > ul > li {
+	display: block;
+	height: auto !important;
+	text-align: center;
+	width: 100% !important;
+	max-width: 100%;
+	position: relative;
+	border-top: thin solid #119EFF;
+	border-bottom: thin solid #0090F3;
+}
+.userbar .wrapper ul li a {
+  display: block;
+  float: left;
+  font-size: 16px;
+  height: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+.userbar .wrapper ul li a span {
+  float: none;
+}
+.userbar .wrapper ul li a p {
+  display: inline;
+  float: none;
+}
+.subul, .subulopen {
+	/*background-color: #008DED;*/
+	color: #fff;
+	font-size: 24px !important;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 50px;
+	z-index: 9;
+	line-height: 2.5;
+}
+.userbar .wrapper ul li.user a {
+  background-position-x: 95%;
+  background-position-y: center;
+}
+.userbar .wrapper ul li.user a span {
+  display: inline;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.userbar div.wrapper ul li a p {
+  display: inline;
+  float: none;
+  margin-bottom: auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: auto !important;
+}
+.userbar .wrapper ul li.user a span img {
+  height: 30px;
+  width: 30px;
+}
+.white > .userbar > .wrapper > ul > li > ul {
+  background-color: #008DED;
+  max-width: 100%;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: relative;
+  top: auto;
+  width:100%;
+}
+.userbar .wrapper ul li.notifications ul li a.messageremove {
+  display: none;
+}
+.userbar .wrapper ul li ul li {
+	display: block;
+	height: auto;
+	width: 100%;
+	border-bottom: thin solid #007CD0 !important;
+}
+.userbar .wrapper ul li ul > li:last-child {
+  border-bottom: none !important;
+}
+.userbar .wrapper ul ul li a {
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 1.5;
+}
+.userbar .wrapper ul li.user ul li a {
+  background-color: transparent;
+  background-image: none;
+}
+.dashboard {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer .wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.userbar .wrapper ul li.user a.selected {
+  background-position-x: 95%;
+  background-position-y: center;
+}
+.userbar .wrapper ul li.notifications a.selected {
+  background-position-x: 95%;
+  background-position-y: center;
+}
+.userbar .wrapper ul li.notifications > a {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../img/ui/icon-open-down.png");
+  background-origin: padding-box;
+  background-position-x: 95%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+
+
+
+
+
+
+} /* /max-width:1024px */
+
+
+@media (max-width:767px){
+	section.content.intro {
+    padding-top: 125px;
+    padding-bottom: 65px;
+}
+
+section.hero div.wrapper article h1 {
+  font-size: 40px !important;
+  line-height: 1.5 !important;
+}
+section div.wrapper article {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+section.works div.wrapper article h1 {
+  font-size: 40px !important;
+  line-height: 1.5 !important;
+}
+section.works .wrapper article p {
+  font-size: 28px !important;
+  line-height: 1.5 !important;
+}
+section .wrapper article h1 {
+  font-size: 40px !important;
+  line-height: 1.5 !important;
+  margin-bottom: 35px !important;
+}
+/*section.why article ul li::after {display:none;}*/
+section.why .wrapper article ul li {
+  margin-top: 15px;
+}
+section.why .wrapper article ul li {
+  clear: both !important;
+  display: table;
+  float: none !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  position: relative !important;
+  text-align: center;
+}
+footer .wrapper::before {
+  display: block;
+  float: left;
+  height: auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.video > iframe {
+  display: block;
+  width: 100%;
+}
+
+/* dashboard */
+
+.dashboard .operationBar p {
+  margin-bottom: 30px;
+  text-align: center;
+  top: auto;
+  width: 100%;
+}
+.dashboard .operationBar a {
+  display: inline-block;
+  float: none;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.operationBar {
+  text-align: center;
+}
+.moreData aside.projectInfo {
+  clear: both;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.moreData aside.projectInfo .resume {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+} /* /max-width:767px */
+
+
+
+@media (min-width:620px) and (max-width:767px){
+
+.video > iframe {
+  height: 500px;
+}
+
+} /* /(min-width:620px) and (max-width:767px) */
+
+@media (min-width:500px) and (max-width:619px){
+
+.video > iframe {
+  height: 400px;
+}
+
+} /* /(min-width:500px) and (max-width:619px) */
+
+@media (min-width:361px) and (max-width:499px){
+
+.video > iframe {
+  height: 330px;
+}
+
+} /* /(min-width:500px) and (max-width:619px) */
+
+@media (max-width:360px){
+
+.video > iframe {
+  height: 280px;
+}
+
+} /* /max-width:360px */
+
+
+
+
+
+/*Last changes 30/12/2016*/
+
+@media (max-width:767px){
+
+
+
+section.why article ul li::after {
+
+    background: none;
+
+}
+.hub > h1 {
+  margin-bottom: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+div.hub h2 {
+  margin-left: auto;
+  width: 100%;
+  padding-bottom: 0px;
+}
+.hub .row .left span {
+  clear: both;
+  line-height: 1.5;
+}
+.hub .row.open .left em {
+  line-height: 1.5;
+}
+.hub .row .left div.users {
+  left: auto;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+.hub .row .left div.users ul li {
+  display: block;
+  line-height: 3;
+  width: 100%;
+}
+.hub .row div.center {
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+div.hub h3 {
+  margin-bottom: 15px;
+  width: 100%;
+}
+#client-hub .row > .btn.blue:first-child {
+  margin-bottom: 10px;
+}
+.hub > .row {
+  position: relative;
+}
+.hub .row div.right {
+  position: absolute;
+  right: 40px;
+  top: 0;
+}
+.hub .row .right div.report {
+  margin-top: 80px;
+}
+.hub .row div.right p {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.hub .row.open .right p::after {
+  background-color: white;
+  content: "-";
+  display: block;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  width: 30px;
+  border-radius:50%;
+  top: 5px;
+}
+.hub .row .right p::after {
+  background-color: white;
+  content: "+";
+  display: block;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  width: 30px;
+  border-radius:50%;
+  top: 5px;
+}
+
+
+
+
+
+
+}
+
+
+/* Register */
+
+@media (max-width:1023px) and (min-width:240px) {
+
+  .blockRegister .userType label span {
+    margin: 0 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.blockRegister .simpleBtn {
+    width: 400px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:14px;
+}
+
+
+}
+
+
+@media (max-width:1023px) and (min-width:479px) {
+
+
+.blockRegister .select, .blockRegister .select select {
+    width: 400px;
+
+    margin-left: 8px;
+}
+
+
+
+}
